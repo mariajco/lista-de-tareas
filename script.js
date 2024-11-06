@@ -5,13 +5,13 @@ const todos = [];
 render();
 
 // Añadir una nueva tarea
-function addTodo() {
-  const title = document.getElementById('todo-title').value;
+function añadir() {
+  const title = document.getElementById('añadir').value;
   const dueDate = document.getElementById('date-picker').value;
 
   if (title && dueDate) {
     todos.push({ title, dueDate, completed: false });
-    document.getElementById('todo-title').value = '';
+    document.getElementById('añadir').value = '';
     document.getElementById('date-picker').value = '';
     render();
   } else {
@@ -37,7 +37,7 @@ function render() {
     // Botón para completar tarea
     const completeButton = document.createElement('button');
     completeButton.className = 'complete';
-    completeButton.innerText = todo.completed ? 'Reactivar' : 'Completado';
+    completeButton.innerText = todo.completed ? 'Reactivar' : 'Realizado';
     completeButton.onclick = () => toggleComplete(index);
     todoItem.appendChild(completeButton);
 

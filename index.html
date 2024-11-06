@@ -3,17 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To-Do List App</title>
+  <title>To-Do List</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="app-container">
     <h1>Lista de Tareas</h1>
     <div class="input-container">
-      <input id="todo-title" type="text" placeholder="Añadir nueva tarea" />
+      <input id="añadir" type="text" placeholder="Añadir nueva tarea" />
       <input id="date-picker" type="date" />
-      <button class="add" onclick="addTodo()">Añadir tarea</button>
-
+      <button class="add" onclick="añadir()">Añadir tarea</button>
     </div>
     <div id="todo-list" class="todo-list"></div>
   </div>

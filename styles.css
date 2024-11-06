@@ -3,62 +3,62 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-  }
-  
-  body {
+}
+
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: linear-gradient(135deg, #8e44ad, #3498db);
     color: #fff;
-  }
-  
-  .app-container {
+}
+
+.app-container {
     width: 100%;
     max-width: 600px;
     padding: 40px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 2.5em;
     text-align: center;
     color: #2c3e50;
     margin-bottom: 20px;
     font-weight: 600;
     letter-spacing: 1px;
-  }
-  
-  .input-container {
+}
+
+.input-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-bottom: 30px;
-  }
-  
-  input[type="text"],
-  input[type="date"] {
+}
+
+input[type="text"],
+input[type="date"] {
     padding: 15px;
     font-size: 1.2em;
     border: 1px solid #ddd;
     border-radius: 10px;
     outline: none;
     width: 100%;
-  }
-  
-  input[type="date"] {
+}
+
+input[type="date"] {
     color: #333;
-  }
-  
-  input[type="text"]:focus,
-  input[type="date"]:focus {
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
     background-color: #f1f1f1;
-  }
-  
-  button {
+}
+
+button {
     padding: 15px;
     font-size: 1.1em;
     font-weight: bold;
@@ -67,39 +67,37 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  button.add {
-    background-color:royalblue; 
-  }
-  
-  
-  
-  button.delete {
+}
+
+button.add {
+    background-color: rgb(55, 132, 214); 
+}
+
+button.delete {
     background-color: #e74c3c;
     margin-left: 10px;
-  }
-  
-  button.delete:hover {
+}
+
+button.delete:hover {
     background-color: #c0392b;
-  }
-  
-  button.complete {
+}
+
+button.complete {
     background-color: #2ecc71;
     margin-left: 10px;
-  }
-  
-  button.complete:hover {
+}
+
+button.complete:hover {
     background-color: #27ae60;
-  }
-  
-  .todo-list {
+}
+
+.todo-list {
     margin-top: 20px;
     max-height: 300px;
     overflow-y: auto;
-  }
-  
-  .todo-item {
+}
+
+.todo-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,27 +108,27 @@
     border: 1px solid #bdc3c7;
     border-radius: 10px;
     color: #2c3e50;
-  }
-  
-  .todo-item.complete .title {
+}
+
+.todo-item.complete .title {
     text-decoration: line-through;
     color: #7f8c8d;
-  }
-  
-  .title {
+}
+
+.title {
     flex: 1;
-  }
-  
-  .scrollbar-style {
+}
+
+.scrollbar-style {
     scrollbar-width: thin;
     scrollbar-color: #3498db #ecf0f1;
-  }
-  
-  .scrollbar-style::-webkit-scrollbar {
+}
+
+.scrollbar-style::-webkit-scrollbar {
     width: 8px;
-  }
-  
-  .scrollbar-style::-webkit-scrollbar-thumb {
+}
+
+.scrollbar-style::-webkit-scrollbar-thumb {
     background-color: #3498db;
     border-radius: 10px;
-  }
+}
